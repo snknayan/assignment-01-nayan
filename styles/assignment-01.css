@@ -2,6 +2,9 @@
 .body{
     width: 1440px;
 }
+section{
+    width:1140;
+}
 button:hover{
     background-color:blueviolet;
 }
@@ -53,3 +56,81 @@ padding-top: 100px;
     margin-left: 200px;
 }
 /* Banner section close */
+
+/* Action Style stare */
+.action{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 300px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 160px;
+}
+.action-div{
+    padding-top: 25px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.action-subtitle{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+    color: #252432;
+}
+    
+.action-btn{
+width: 200px;
+}
+.action-img{
+    height: 300px;
+    width: 400px;
+    border-radius: 25px;
+}
+/* Action Section Close */
+
+/* Productive Section Start */
+
+.productive{
+    width: 1140px;
+    height: 350px;
+    background-color: #dfdcfb;
+    margin-left: 160px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+
+}
+
+.productive-list{
+display: flex;
+    
+    justify-content:space-around;
+    padding-top: 35px;
+
+}
+
+
+.pro-items{
+
+    font-weight: bold;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.pro-title{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 65px;
+
+}
+.pro-items-subtitle{
+    color:#252432;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
