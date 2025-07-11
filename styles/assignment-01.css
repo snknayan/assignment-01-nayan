@@ -1,0 +1,55 @@
+/* Shared Styles */
+.body{
+    width: 1440px;
+}
+button:hover{
+    background-color:blueviolet;
+}
+
+/* Styles for Banner Section */
+.banner{
+    width: 1440px;
+    height: 700px;
+    background-image: url(../Assets/Hero-bg.png);
+}
+nav{
+    height: 151px;
+    width: 1140;
+}
+.nav-items{
+display: flex;
+justify-content: space-between;
+margin-left: 150px;
+margin-right: 150px;
+padding-top: 100px;
+
+}
+.nav-img{
+    height: 30px;
+    width: 120px;
+}
+.btn-01{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    
+}
+
+.banner-text{
+    font-size: 44px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+ .banner-sec{ 
+    margin: 150px 450px;
+} 
+.banner-button{
+    margin-left: 200px;
+}
+/* Banner section close */
