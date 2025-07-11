@@ -1,7 +1,7 @@
 /* Shared Styles */
 body{
     max-width: 1440px;
-    background-color: rgb(245, 236, 236);
+    background-color: rgb(228, 222, 222);
     
   
 }
@@ -32,9 +32,14 @@ margin-right: 150px;
 padding-top: 100px;
 
 }
-.nav-img{
-    height: 30px;
-    width: 120px;
+.nav-logo{
+
+    font-size: 60px;
+    font-weight: bold;
+    color: blue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
 }
 .btn-01{
     height: 40px;
@@ -44,7 +49,11 @@ padding-top: 100px;
     background-color: blue;
     color: white;
     font-size: medium;
+
     
+}
+.btn-padding{
+    margin-top: 75px;
 }
 
 .banner-text{
@@ -52,6 +61,7 @@ padding-top: 100px;
     font-weight: bold;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    padding-top: 50px;
 
 }
  .banner-sec{ 
@@ -176,7 +186,7 @@ border-radius: 15px;
 height: 250px;
 margin-top: 50px;
 width: 346px;
-box-shadow: 2px 2px 2px 2px rgb(241, 239, 239);
+box-shadow: 2px 2px 2px 2px rgb(111, 110, 110);
 
 
 }
@@ -254,12 +264,12 @@ box-shadow: 2px 2px 2px 2px rgb(241, 239, 239);
 .nwl-sec{
     width: 1140px;
     height: 400px;
-    padding-bottom: 80px;
-    background-color: #969191;
+    
+    background-color: rgb(254, 251, 251);
      margin-left: 160px;
-    margin-bottom: 80px;
+    
     border-radius: 10px;
-    padding-top: 80px;
+     padding-top: 60px; 
 
     display: flex;
     justify-content: space-between;
@@ -286,9 +296,51 @@ box-shadow: 2px 2px 2px 2px rgb(241, 239, 239);
     border: none;
     padding-bottom: 10px;
     text-align: left;
+    box-shadow: 2px 2px 2px 2px rgb(151, 146, 146);
   
 }
 .frm-textarea{
 
   border-radius: 10px;  
+  box-shadow: 2px 2px 2px 2px rgb(151, 146, 146);
+}
+
+/* Newsletter section end */
+
+/* Footer section start */
+
+.ftr{
+    width: 1440px;
+    height: 350px;
+    background-color: white;
+}
+.ftr-logo{
+    font-size: 60px;
+    font-weight: bold;
+    color: blue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 650px;
+    padding-top: 80px;
+}
+.ftr-text{
+    width: 340px;
+    padding-left: 570px;
+    text-align: center;
+
+    color: #1E1E1E;
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+ul li{
+    list-style-type: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
